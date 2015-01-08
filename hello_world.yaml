@@ -1,0 +1,11 @@
+- job:
+    name: hello_world
+    description: 'Do not edit this job through the web!'
+    project-type: freestyle
+    builders:
+      - shell: |
+          echo "hello world"         
+    publishers:      
+      - email-ext:
+          recipients: goodwin_87@mail.ru
+          always: true
