@@ -7,5 +7,17 @@
           echo "hello world"         
     publishers:      
       - email-ext:
-          recipients: goodwin_87@mail.ru3
+          recipients: goodwin_87@mail.ru
+          always: true
+
+- job:
+    name: test job by git
+    description: 'Do not edit this job through the web!'
+    project-type: freestyle
+    builders:
+      - shell: |
+          echo "hello world"
+    publishers:
+      - email-ext:
+          recipients: goodwin_87@mail.ru
           always: true
