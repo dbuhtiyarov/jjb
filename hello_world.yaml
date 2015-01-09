@@ -4,7 +4,8 @@
     project-type: freestyle
     builders:
       - shell: |
-          echo "hello world"         
+          echo "hello world"
+          df -h         
     publishers:      
       - email-ext:
           recipients: goodwin_87@mail.ru
