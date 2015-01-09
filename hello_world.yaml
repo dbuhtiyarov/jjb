@@ -7,5 +7,5 @@
           echo "hello world"         
     publishers:      
       - email-ext:
-          recipients: goodwin_87@mail.ru
+          recipients: goodwin_87@mail.ru1
           always: true
