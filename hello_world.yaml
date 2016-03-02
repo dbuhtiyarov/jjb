@@ -8,7 +8,7 @@
           df -h         
     publishers:      
       - email-ext:
-          recipients: goodwin_87@mail.ru
+          recipients: ###
           always: true
 
 - job:
@@ -20,5 +20,5 @@
           echo "hello world"
     publishers:
       - email-ext:
-          recipients: goodwin_87@mail.ru
+          recipients: ###
           always: true
